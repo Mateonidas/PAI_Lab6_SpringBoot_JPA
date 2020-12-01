@@ -22,13 +22,13 @@
 
 <form action="${pageContext.request.contextPath}/populationGreaterThen" method="post" >
     <label for="populationGreaterThen">Population greater then:</label>
-    <input type="text" id="populationGreaterThen" name="population">
+    <input type="number" id="populationGreaterThen" name="population">
     <input type="submit" value="Show" >
 </form>
 
 <form action="${pageContext.request.contextPath}/populationLessThen" method="post" >
     <label for="populationLessThen">Population less then:</label>
-    <input type="text" id="populationLessThen" name="population">
+    <input type="number" id="populationLessThen" name="population">
     <input type="submit" value="Show" >
 </form>
 
@@ -36,9 +36,9 @@
     <label for="continentSurface">Continent:</label>
     <input type="text" id="continentSurface" name="continent">
     <label for="minArea">Minimal area:</label>
-    <input type="text" id="minArea" name="minArea">
+    <input type="number" id="minArea" name="minArea">
     <label for="maxArea">Maximum area:</label>
-    <input type="text" id="maxArea" name="maxArea">
+    <input type="number" id="maxArea" name="maxArea">
     <input type="submit" value="Show" >
 </form>
 
